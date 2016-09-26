@@ -8,22 +8,22 @@ Form Mask requires PHP >= 5.3.3.
 	
 ## Basic Usage
 
-Use `class: form-masks-data` to insert a date mask. = 00/00/0000.
+Use class `form-masks-data` to insert a date mask. = 00/00/0000.
 
-Use `form-masks-hora` to insert a date hour. = 00:00:00.
+Use class `form-masks-hora` to insert a date hour. = 00:00:00.
 
-Use `form-masks-data-hora` to insert a date and hour. = 00/00/0000 00:00:00.
+Use class `form-masks-data-hora` to insert a date and hour. = 00/00/0000 00:00:00.
 
-Use `form-masks-cep` to insert a CEP. = 00000-000.
+Use class `form-masks-cep` to insert a CEP. = 00000-000.
 
-Use `form-masks-cpf` to insert a CPF. = 000.000.000-00.
+Use class `form-masks-cpf` to insert a CPF. = 000.000.000-00.
 
-Use `form-masks-cnpj` to insert a CNPJ. = 00.000.000/0000-00.
+Use class `form-masks-cnpj` to insert a CNPJ. = 00.000.000/0000-00.
 
-Use `form-masks-dinheiro` to insert a money. = 000.000.000.000.000,00.
+Use class `form-masks-dinheiro` to insert a money. = 000.000.000.000.000,00.
 
-Use `form-masks-dinheiro2` to insert a money two. = #.##0,00.
+Use class `form-masks-dinheiro2` to insert a money two. = #.##0,00.
 
-Use `form-masks-percent` to insert a porcent. = ##0,00%.
+Use class `form-masks-percent` to insert a porcent. = ##0,00%.
 
 
