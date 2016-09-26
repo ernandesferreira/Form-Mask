@@ -24,3 +24,13 @@ Form Mask requires PHP >= 5.3.3.
 	- [Barcode](#fakerproviderbarcode)
 	- [Miscellaneous](#fakerprovidermiscellaneous)
 	- [Biased](#fakerproviderbiased)
+	
+## Installation
+
+```sh
+composer require fzaninotto/faker
+```
+
+## Basic Usage
+
+Use `Faker\Factory::create()` to create and initialize a faker generator, which can generate data by accessing properties named after the type of data you want.
