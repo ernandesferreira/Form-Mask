@@ -9,6 +9,7 @@ Form Mask requires PHP >= 5.3.3.
 ## Basic Usage
 
 Use `class: form-masks-data` to insert a date mask. = 00/00/0000.
+
 Use `form-masks-hora` to insert a date hour. = 00:00:00.
 Use `form-masks-data-hora` to insert a date and hour. = 00/00/0000 00:00:00.
 Use `form-masks-cep` to insert a CEP. = 00000-000.
