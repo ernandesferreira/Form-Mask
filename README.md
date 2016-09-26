@@ -3,34 +3,17 @@ Plugin para Formulário Máscara é um plugin que faz o tempo do desenvolvedor p
 
 Form Mask requires PHP >= 5.3.3.
 
-- [Installation](#installation)
 - [Basic Usage](#basic-usage)
-- [Formatters](#formatters)
-	- [Base](#fakerproviderbase)
-	- [Lorem Ipsum Text](#fakerproviderlorem)
-	- [Person](#fakerprovideren_usperson)
-	- [Address](#fakerprovideren_usaddress)
-	- [Phone Number](#fakerprovideren_usphonenumber)
-	- [Company](#fakerprovideren_uscompany)
-	- [Real Text](#fakerprovideren_ustext)
-	- [Date and Time](#fakerproviderdatetime)
-	- [Internet](#fakerproviderinternet)
-	- [User Agent](#fakerprovideruseragent)
-	- [Payment](#fakerproviderpayment)
-	- [Color](#fakerprovidercolor)
-	- [File](#fakerproviderfile)
-	- [Image](#fakerproviderimage)
-	- [Uuid](#fakerprovideruuid)
-	- [Barcode](#fakerproviderbarcode)
-	- [Miscellaneous](#fakerprovidermiscellaneous)
-	- [Biased](#fakerproviderbiased)
+
 	
-## Installation
-
-```sh
-composer require fzaninotto/faker
-```
-
 ## Basic Usage
 
-Use `Faker\Factory::create()` to create and initialize a faker generator, which can generate data by accessing properties named after the type of data you want.
+Use `class: form-masks-data` to insert a date mask. = 00/00/0000
+Use `form-masks-hora` to insert a date hour. = 00:00:00
+Use `form-masks-data-hora` to insert a date and hour. = 00/00/0000 00:00:00
+Use `form-masks-cep` to insert a CEP. = 00000-000
+Use `form-masks-cpf` to insert a CPF. = 000.000.000-00
+Use `form-masks-cnpj` to insert a CNPJ. = 00.000.000/0000-00
+Use `form-masks-dinheiro` to insert a money. = 000.000.000.000.000,00
+Use `form-masks-dinheiro2` to insert a money two. = #.##0,00
+Use `form-masks-percent` to insert a porcent. = ##0,00%
